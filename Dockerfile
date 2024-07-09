@@ -7,3 +7,4 @@ RUN python -m venv soda_venv && source soda_venv/bin/activate && \
 RUN python -m venv dbt_venv && source dbt_venv/bin/activate && \
     pip install --no-cache-dir dbt-bigquery==1.5.3 && deactivate
 
+ENV PATH="/usr/local/airflow/soda_venv/bin:/opt/dbt_venv/bin:$PATH"
