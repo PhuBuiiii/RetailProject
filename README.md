@@ -46,12 +46,12 @@ Contact
 =======
 
 The Astronomer CLI is maintained with love by the Astronomer team. To report a bug or suggest a change, reach out to our support.
-Architecture
-=======
+#Architecture
+
 <img src="architecture.png">
-Data Modeling
-=======
+#Data Modeling
+
 <img src="data_modeling.png">
-DashBoard
-=======
+#DashBoard
+
 <img src="dashboard.png">
